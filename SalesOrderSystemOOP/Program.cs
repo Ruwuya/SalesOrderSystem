@@ -9,6 +9,7 @@ namespace SalesOrderSystemOOP
             // See https://aka.ms/new-console-template for more information
             Console.WriteLine("Hello, World!");
 
+            /*
             // Creating customer
             Customer customer = new Customer(1, "John Doe", "123 Main St", "555-1234", "john@example.com", true);
 
@@ -39,6 +40,7 @@ namespace SalesOrderSystemOOP
             {
                 Console.WriteLine($"- {detail.Quantity} x {detail.OrderedItem.Description} @ {detail.OrderedItem.GetPrice():C}");
             }
+            */
         }
     }
 
