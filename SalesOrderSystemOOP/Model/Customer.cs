@@ -24,7 +24,7 @@ namespace SalesOrderSystemOOP.Model
             PhoneNumber = phonenumber;
             Email = email;
             Active = active;
-            Orders new List<Order>();
+            Orders = new List<Order>();
         }
 
         public void AddOrder(Order order)
