@@ -1,9 +1,14 @@
 ﻿
 Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio Version 17
-VisualStudioVersion = 17.13.35828.75 d17.13
+VisualStudioVersion = 17.13.35828.75
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SalesOrderSystemOOP", "SalesOrderSystemOOP\SalesOrderSystemOOP.csproj", "{B67D6D3E-6948-4B8B-AA12-3437AAB066EB}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SalesOrderSystemOOP.Test", "SalesOrderSystemOOP.Test\SalesOrderSystemOOP.Test.csproj", "{57DFB479-BA75-4C21-A39C-0B6D15DA84CD}"
+	ProjectSection(ProjectDependencies) = postProject
+		{B67D6D3E-6948-4B8B-AA12-3437AAB066EB} = {B67D6D3E-6948-4B8B-AA12-3437AAB066EB}
+	EndProjectSection
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -15,6 +20,10 @@ Global
 		{B67D6D3E-6948-4B8B-AA12-3437AAB066EB}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{B67D6D3E-6948-4B8B-AA12-3437AAB066EB}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{B67D6D3E-6948-4B8B-AA12-3437AAB066EB}.Release|Any CPU.Build.0 = Release|Any CPU
+		{57DFB479-BA75-4C21-A39C-0B6D15DA84CD}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{57DFB479-BA75-4C21-A39C-0B6D15DA84CD}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{57DFB479-BA75-4C21-A39C-0B6D15DA84CD}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{57DFB479-BA75-4C21-A39C-0B6D15DA84CD}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
