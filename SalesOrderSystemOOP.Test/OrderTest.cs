@@ -24,7 +24,7 @@ namespace SalesOrderSystemOOP.Test
 
             // Verificere metoden opfører sig som den skal
             // Assert
-            Assert.True(orderDate <= DateTime.Now, $"Order creation date ({orderDate}) should not be in the future");
+            Assert.True(orderDate <= DateTime.Now, $"Order creation date ({orderDate}) cannot be in the future");
         }
     }
 }
