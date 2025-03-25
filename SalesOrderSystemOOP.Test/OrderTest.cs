@@ -14,7 +14,7 @@ namespace SalesOrderSystemOOP.Test
         [Fact]
         public void OrderShouldHaveValidCreateDate()
         {
-            // Initialisere objekter og sætter værdier på dataen
+            // Initialisere objekter og sætter værdier i dataen
             // Arrange
             var order = new Order(1);
 
